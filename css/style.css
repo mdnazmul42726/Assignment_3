@@ -1,0 +1,128 @@
+
+body:{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.green{
+    width: 700px;
+    height: 400px;
+    background: green;
+    position: relative;
+    border-radius: 4px;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    
+}
+
+.fb{
+    width: 100px;
+    position: fixed;
+    top: 20%;
+    right: -62px;
+    transition: 1s;
+}
+
+.fb:hover{
+    right: 4px;
+    cursor: pointer;
+}
+
+.yt{
+     width: 100px;
+    position: fixed;
+    top: 30%;
+    right: -60px;
+    transition: 1s;
+}
+
+.yt:hover{
+    right: 4px;
+    cursor: pointer;
+}
+
+.ld{
+    width: 100px;
+    position: fixed;
+    top: 34%;
+    right: -62px;
+    transition: 1s;
+}
+
+.ld:hover{
+    right: 3px;
+    cursor: pointer;
+}
+.social-icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 50px 0px 0px;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icons a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background: #8A2E60;
+    margin: 0px 5px;
+    color: azure;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.social-icons a:hover{
+    background: black;
+    color: red;
+}
+
+.n{
+    color: orangered;
+    text-align: center;
+}
+
+.a{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
